@@ -1,13 +1,13 @@
 import React from "react";
 import "../../styles/App.css";
-
-import { Row, Banner } from "../sources";
-
 import requests from "../../requests";
+
+import { Row, Banner, Nav } from "../sources";
 
 const App = () => {
   return (
     <div className="app">
+      <Nav />
       <Banner />
       <Row
         title="NETFLIX ORIGINALS"
